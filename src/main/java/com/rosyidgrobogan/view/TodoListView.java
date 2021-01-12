@@ -41,5 +41,21 @@ public class TodoListView {
         }
     }
 
-    public static void viewDeleteTodoList(){}
+    public static void viewDeleteTodoList(){
+        System.out.println("HAPUS TODOLIST");
+
+        String todo = input("No. yang ingin dihapus (x Jika batal)");
+
+        if (todo.equals("x")){
+            // batal
+        }else {
+            // konversi ke number
+            boolean success = deleteTodoList(Integer.valueOf(todo));
+
+            // jika tidak success
+            if (!success){
+                System.out.println("Gagal menghapus todoList :"+ todo);
+            }
+        }
+    }
 }
