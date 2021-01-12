@@ -29,6 +29,17 @@ public class TodoListView {
 
     }
 
-    public static void viewAddTodoList(){}
+    public static void viewAddTodoList(){
+        System.out.println("TAMBAH TODOLIST");
+
+        String todo = input("Todo (x Jika Batal");
+
+        if (todo.equals("x")){
+            // batal
+        } else {
+            addTodoList(todo);
+        }
+    }
+
     public static void viewDeleteTodoList(){}
 }
