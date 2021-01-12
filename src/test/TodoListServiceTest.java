@@ -36,14 +36,15 @@ class TodoListServiceTest {
         addTodoList("D");
 
 
-        boolean result = deleteTodoList(20);
+        // hapus index yg lebih dari jumlah array
+        boolean result = deleteTodoList(20); // false
         System.out.println(result);
 
 //        result = deleteTodoList(4);
 //        System.out.println(result);
 
-        // test true
-        result = deleteTodoList(1);
+        // hapus index
+        result = deleteTodoList(1); // true
         System.out.println(result);
 
         showTodoList();

@@ -78,10 +78,12 @@ public class TodoListService {
             // success
         }else {
            // element di index array
+            // geser
             for (int i = (number - 1); i < dataTodo.length; i++){
                 if (i == (dataTodo.length - 1)){
                     dataTodo[i] = null;
                 }else {
+                    // geser indek selanjutnya
                     dataTodo[i] = dataTodo[i + 1];
                 }
             }
