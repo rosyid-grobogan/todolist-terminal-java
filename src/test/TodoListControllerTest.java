@@ -1,5 +1,5 @@
 package test;
-import static com.rosyidgrobogan.controller.TodoListController.*;
+
 public class TodoListControllerTest {
     public static void main(String[] args) {
         // test

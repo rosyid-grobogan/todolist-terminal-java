@@ -1,4 +1,4 @@
-package com.rosyidgrobogan.model;
+package main.java.com.rosyidgrobogan.model;
 
 
 public class TodoListModel {

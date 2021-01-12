@@ -1,6 +1,6 @@
-package com.rosyidgrobogan.service;
+package main.java.com.rosyidgrobogan.service;
 
-import static com.rosyidgrobogan.model.TodoListModel.*;
+import static main.java.com.rosyidgrobogan.model.TodoListModel.*;
 
 public class TodoListService {
 

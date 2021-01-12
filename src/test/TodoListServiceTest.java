@@ -1,9 +1,6 @@
 package test;
 
 
-import static com.rosyidgrobogan.service.TodoListService.*;
-import static com.rosyidgrobogan.model.TodoListModel.*;
-
 class TodoListServiceTest {
     public static void main(String[] args) {
         // panggil

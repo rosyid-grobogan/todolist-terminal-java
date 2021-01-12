@@ -1,6 +1,4 @@
-package com.rosyidgrobogan;
-
-import com.rosyidgrobogan.model.TodoListModel;
+package main.java.com.rosyidgrobogan;
 
 public class ToDoListApp {
 

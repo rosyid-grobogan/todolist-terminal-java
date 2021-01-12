@@ -1,6 +1,6 @@
-package com.rosyidgrobogan.controller;
+package main.java.com.rosyidgrobogan.controller;
 
-import static com.rosyidgrobogan.model.TodoListModel.*;
+import static main.java.com.rosyidgrobogan.model.TodoListModel.*;
 
 public class TodoListController {
 
