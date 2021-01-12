@@ -5,7 +5,8 @@ import static main.java.com.rosyidgrobogan.service.TodoListService.*;
 public class TodoListViewTest {
     public static void main(String[] args) {
         //testShowTodoList();
-        testAddTodoList();
+        //testAddTodoList();
+        testDeleteTodoList();
     }
 
     public static void testShowTodoList(){
@@ -24,6 +25,17 @@ public class TodoListViewTest {
         addTodoList("Ngopi");
 
         viewAddTodoList();
+        showTodoList();
+    }
+
+    public static void testDeleteTodoList(){
+        addTodoList("Olah Raga");
+        addTodoList("Sarapan");
+        addTodoList("Membaca");
+        addTodoList("Ngopi");
+
+        showTodoList();
+        viewDeleteTodoList();
         showTodoList();
     }
 }
