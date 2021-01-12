@@ -1,5 +1,7 @@
 package test;
 
+import static main.java.com.rosyidgrobogan.service.TodoListService.*;
+import static main.java.com.rosyidgrobogan.model.TodoListModel.*;
 
 class TodoListServiceTest {
     public static void main(String[] args) {

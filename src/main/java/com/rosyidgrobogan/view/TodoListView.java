@@ -5,9 +5,11 @@ import static main.java.com.rosyidgrobogan.controller.TodoListController.*;
 public class TodoListView {
     public static void viewShowTodoList(){
         while (true){
+            System.out.println("#TO DO LIST :");
             showTodoList();
 
-            System.out.println("MENU : ");
+            System.out.println();
+            System.out.println("#MENU : ");
             System.out.println("1. Tambah");
             System.out.println("2. Hapus");
             System.out.println("x. Keluar");
@@ -21,6 +23,7 @@ public class TodoListView {
                 break;
             }else {
                 System.out.println("Pilihan tidak ada");
+                System.out.println();
             }
         }
 
